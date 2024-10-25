@@ -19,7 +19,7 @@ const News = () => {
             <div className='bg-[#06091A] pt-20 pb-5 mt-72'>
                 <img src={logoFooter} className='mx-auto mt-32' />
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-10 my-14'>
-                    <div className='text-start pl-20 space-y-2'>
+                    <div className='text-center md:text-start px-7 lg:pl-20 space-y-2'>
                         <h4 className='text-gray-200 font-semibold'>About Us</h4>
                         <p className='text-gray-500'>We are a passionate team dedicated to providing the best services to our customers.</p>
                     </div>
@@ -34,7 +34,7 @@ const News = () => {
                         </ul>
                     </div>
 
-                    <div className='text-start space-y-3 pr-10'>
+                    <div className='text-center md:text-start space-y-3 px-7 lg:pr-10'>
                         <h4 className='text-gray-200 font-semibold mb-4'>Subscribe</h4>
                         <p className='text-gray-500'>Subscribe to our newsletter for the latest updates.</p>
                         <div>
