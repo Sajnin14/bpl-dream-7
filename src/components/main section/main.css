@@ -1,0 +1,16 @@
+.about-btn{
+    border-radius: 14px 0 0 14px;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+.select-btn{
+    border-radius: 0 14px 14px 0;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+.active-btn{
+    background-color: #E7FE29;
+}
+

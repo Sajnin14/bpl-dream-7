@@ -29,6 +29,7 @@ const Header = ({propCoin, propHandleCoin}) => {
                     <p className='text-white text-3xl font-semibold'>Assemble Your Ultimate Dream 11 Cricket Team</p>
                     <p className='text-gray-100'>Beyond Boundaries Beyond Limits</p>
                     <button onClick={propHandleCoin} className='border border-[#E7FE29] rounded-lg'><p className='bg-[#E7FE29] font-semibold rounded-lg p-3 m-1'>Claim Free Credit</p></button>
+                    
                 </div>
             </div>
 

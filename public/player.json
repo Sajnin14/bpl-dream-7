@@ -1,0 +1,82 @@
+[
+    {
+        "id": "CR001",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Arjun Malik",
+        "country": "India",
+        "role": "Batsman",
+        "rating": 87,
+        "batting_style": "Right-handed",
+        "price": 200000
+    },
+    {
+        "id": "CR002",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Tom Wilcox",
+        "country": "England",
+        "role": "Fast Bowler",
+        "rating": 91,
+        "batting_style": "Left-handed",
+        "price": 250000
+    },
+    {
+        "id": "CR003",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Sachin Rana",
+        "country": "India",
+        "role": "All-rounder",
+        "rating": 85,
+        "batting_style": "Right-handed",
+        "price": 500000
+    },
+    {
+        "id": "CR004",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Jacques de Vries",
+        "country": "South Africa",
+        "role": "Wicketkeeper-batsman",
+        "rating": 89,
+        "batting_style": "Left-handed",
+        "price": 600000
+    },
+    {
+        "id": "CR005",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Farooq Akhtar",
+        "country": "Pakistan",
+        "role": "Spin Bowler",
+        "rating": 84,
+        "batting_style": "Right-handed",
+        "price": 400000
+    },
+    {
+        "id": "CR006",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Leo Thompson",
+        "country": "Australia",
+        "role": "Batsman",
+        "rating": 78,
+        "batting_style": "Right-handed",
+        "price": 350000
+    },
+    {
+        "id": "CR007",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Ahmed Khalid",
+        "country": "Pakistan",
+        "role": "All-rounder",
+        "rating": 82,
+        "batting_style": "Left-handed",
+        "price": 450000
+    },
+    {
+        "id": "CR008",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "James Parker",
+        "country": "England",
+        "role": "Spin Bowler",
+        "rating": 79,
+        "batting_style": "Right-handed",
+        "price": 300000
+    }
+]
