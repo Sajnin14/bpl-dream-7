@@ -81,7 +81,7 @@ function App() {
             position: 'top-center'
           })
 
-          const newPlayer = [...selected, propSingleAvailable]
+          const newPlayer = [...selected, propSingleAvailable];
           setSelected(newPlayer);
         }
         
@@ -96,11 +96,28 @@ function App() {
     }
     
         
-        }   
+     }   
 
 
-  // select player function
-  
+  // delete player function
+
+  const handleDelete = (id) =>{
+    console.log('clicked on delete', id);
+    const remainingPlayer = selected.filter(player => player.id !== id);
+    setSelected(remainingPlayer);
+  }
+
+
+  // add more player functionality
+   const handleAddMorePlayer = () =>{
+       console.log('clicked-on add player');
+       setActive({
+        about: true,
+        status: 'available'
+      })
+         
+   }
+   
   
 
   return (
@@ -113,10 +130,11 @@ function App() {
          selectedHandleChoosePlayer={selected}
       ></Main>
       
-      
       {
-        active.about? <Available handleChoosePlayer={handlechoosePlayer} ></Available> : <Selected></Selected>
+        active.about? <Available handleChoosePlayer={handlechoosePlayer} ></Available> : <Selected propSelected={selected} propHandleDelete = {handleDelete} handleAddMorePlayer={handleAddMorePlayer}></Selected>
       }
+      
+      
 
       <ToastContainer />
       

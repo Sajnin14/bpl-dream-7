@@ -78,5 +78,67 @@
         "rating": 79,
         "batting_style": "Right-handed",
         "price": 300000
+    },
+    {
+        "id": "CR009",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Carlos Mendes",
+        "country": "West Indies",
+        "role": "Batsman",
+        "rating": 88,
+        "batting_style": "Left-handed",
+        "price": 220000
+    },
+    {
+        "id": "CR010",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Rahul Singh",
+        "country": "India",
+        "role": "Fast Bowler",
+        "rating": 90,
+        "batting_style": "Right-handed",
+        "price": 240000
+    },
+    {
+        "id": "CR011",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Moeen Ahmed",
+        "country": "Bangladesh",
+        "role": "All-rounder",
+        "rating": 83,
+        "batting_style": "Left-handed",
+        "price": 270000
+    },
+    {
+        "id": "CR012",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Ben Stokes",
+        "country": "England",
+        "role": "Batsman",
+        "rating": 92,
+        "batting_style": "Right-handed",
+        "price": 800000
+    },
+
+    {
+        "id": "CR013",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Akira Tanaka",
+        "country": "Japan",
+        "role": "Spin Bowler",
+        "rating": 76,
+        "batting_style": "Left-handed",
+        "price": 320000
+    },
+
+    {
+        "id": "CR014",
+        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "name": "Usman Tariq",
+        "country": "UAE",
+        "role": "Wicketkeeper-batsman",
+        "rating": 81,
+        "batting_style": "Right-handed",
+        "price": 400000
     }
 ]

@@ -7,8 +7,10 @@ import { BsPersonCircle } from "react-icons/bs";
 
 const SingleAvailable = ({ propSingleAvailable, handleChoosePlayer}) => {
     const {image, name, country, role, price, rating, batting_style } = propSingleAvailable;
-    console.log(propSingleAvailable);
+    // console.log(propSingleAvailable);
     return (
+
+
         <div className='border border-gray-500 p-4 rounded-lg space-y-3'>
             <img className='rounded-lg' src={image} />
             <div className='flex items-center gap-2'>

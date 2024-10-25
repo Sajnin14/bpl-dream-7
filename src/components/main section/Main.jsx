@@ -14,9 +14,11 @@ const Main = ({handleActive, isActive, selectedHandleChoosePlayer}) => {
                 <p className="text-2xl font-bold">Available Players</p>
                 <div>
                     <button onClick={() => handleActive("available")} className={`${about? "about-btn active-btn" : "about-btn"}`}>Available</button>
-                    <button onClick={() => handleActive("selected")} className={`${about? "select-btn" : "select-btn active-btn"}`}>Selected {selectedHandleChoosePlayer.length}</button>
+                    <button onClick={() => handleActive("selected")} className={`${about? "select-btn" : "select-btn active-btn"}`}>Selected ({selectedHandleChoosePlayer.length})</button>
                 </div>
             </div>
+
+
         </div>
     );
 };
@@ -24,7 +26,7 @@ const Main = ({handleActive, isActive, selectedHandleChoosePlayer}) => {
 Main.propTypes = {
     handleActive: PropTypes.func,
     isActive: PropTypes.object,
-    selectedHandleChoosePlayer: PropTypes.number
-};
+    selectedHandleChoosePlayer: PropTypes.array
+}
 
 export default Main;
