@@ -8,6 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Available from './components/Available';
 import Selected from './components/Selected';
+import News from './components/News';
 
 function App() {
    
@@ -133,14 +134,16 @@ function App() {
       {
         active.about? <Available handleChoosePlayer={handlechoosePlayer} ></Available> : <Selected propSelected={selected} propHandleDelete = {handleDelete} handleAddMorePlayer={handleAddMorePlayer}></Selected>
       }
+
+      <News></News>
       
       
 
       <ToastContainer />
       
     </>
-  )
-}
+  );
+};
 
 export default App
 

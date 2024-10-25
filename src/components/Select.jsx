@@ -4,7 +4,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 const Select = ({ propSelect, propHandleDelete }) => {
 
     const { id, image, name, role, price} = propSelect;
-    console.log(propSelect)
+    console.log(price);
     return (
             <div className='border border-gray-300 p-4 m-4 rounded-lg'>
                 <div className='flex justify-between items-center'>
