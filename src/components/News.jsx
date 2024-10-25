@@ -4,7 +4,8 @@ import logoFooter from '../assets/logo-footer.png'
 const News = () => {
     return (
         <div className="my-20 relative">
-                <div className="bg-gray-100 text-center py-24 space-y-4 w-5/6 absolute -top-1/4 left-28 object-contain rounded-xl outline-double outline-gray-50" style={{ backgroundImage: `url(${bg})` }}>
+            <div className='w-5/6 absolute -top-1/4 left-28 object-contain rounded-xl border border-gray-200'>
+                <div className="bg-gray-100 text-center py-24 space-y-4 m-3" style={{ backgroundImage: `url(${bg})` }}>
                     <h4 className='font-bold text-2xl text-gray-700'>Subscribe to our Newsletter</h4>
                     <p className='text-gray-500'>Get the latest updates and news right in your inbox!</p>
 
@@ -13,6 +14,7 @@ const News = () => {
                         <button className='border border-gray-400 py-2 px-4 rounded-lg bg-gradient-to-br from-purple-400 to-yellow-500'>Subscribe</button>
                     </div>
                 </div>
+            </div>
 
             <div className='bg-[#06091A] pt-20 pb-5 mt-72'>
                 <img src={logoFooter} className='mx-auto mt-32' />
@@ -42,12 +44,12 @@ const News = () => {
                     </div>
                 </div>
 
-                <hr/>
+                <hr />
 
-            <p className='text-center p-5 m-5 text-gray-400'>@2024 Your Company All Rights Reserved.</p>
+                <p className='text-center p-5 m-5 text-gray-400'>@2024 Your Company All Rights Reserved.</p>
             </div>
 
-            
+
         </div>
     );
 };
