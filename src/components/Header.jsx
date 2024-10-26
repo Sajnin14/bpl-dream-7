@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 
 
 const Header = ({propCoin, propHandleCoin}) => {
-    // console.log(propCoin);
+    
     return (
         <div>
             <div className='flex justify-between items-center'>

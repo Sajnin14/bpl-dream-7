@@ -7,7 +7,7 @@ import { BsPersonCircle } from "react-icons/bs";
 
 const SingleAvailable = ({ propSingleAvailable, handleChoosePlayer}) => {
     const {image, name, country, role, price, rating, batting_style } = propSingleAvailable;
-    // console.log(propSingleAvailable);
+    
     return (
 
 

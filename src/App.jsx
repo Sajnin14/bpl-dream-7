@@ -58,7 +58,6 @@ function App() {
   const handlechoosePlayer = (propSingleAvailable) =>{
 
     if(selected.length <6 ){
-      console.log('okay');
       const playerPrice = propSingleAvailable.price;
       const playerId = propSingleAvailable.id;
       const isSelected = selected.find(select => select.id === playerId);
@@ -79,7 +78,7 @@ function App() {
 
         else{
           setCoin(coin - playerPrice);
-          toast.success('player added',{
+          toast.success('Succesfully player added done!',{
             position: 'top-center'
           })
 
@@ -104,7 +103,6 @@ function App() {
   // delete player function
 
   const handleDelete = (id) =>{
-    console.log('clicked on delete', id);
     const remainingPlayer = selected.filter(player => player.id !== id);
     setSelected(remainingPlayer);
   }
@@ -112,7 +110,6 @@ function App() {
 
   // add more player functionality
    const handleAddMorePlayer = () =>{
-       console.log('clicked-on add player');
        setActive({
         about: true,
         status: 'available'
@@ -149,4 +146,4 @@ function App() {
 export default App
 
 
-// https://github.com/programming-hero-web-course1/b10a7-dream-11-Sajnin14.git
+

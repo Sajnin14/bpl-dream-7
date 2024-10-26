@@ -1,4 +1,4 @@
-// import bg from '../assets/bg-shadow.png'
+
 import logoFooter from '../../assets/logo-footer.png'
 import './News.css'
 

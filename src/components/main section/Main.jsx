@@ -4,9 +4,6 @@ import './main.css'
 
 const Main = ({handleActive, isActive, selectedHandleChoosePlayer}) => {
      
-    console.log(selectedHandleChoosePlayer);
-
-    console.log(isActive);
     const {about} = isActive;
     return (
         <div>
