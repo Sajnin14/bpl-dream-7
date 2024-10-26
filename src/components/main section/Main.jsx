@@ -11,7 +11,11 @@ const Main = ({handleActive, isActive, selectedHandleChoosePlayer}) => {
     return (
         <div>
             <div className="flex justify-between items-center">
-                <p className="text-2xl font-bold">Available Players</p>
+
+                
+                <p className={`${about? "text-3xl font-bold" : "hidden text-2xl font-bold"}`}>Available Players</p>
+                <p className={`${about? "hidden text-3xl font-bold" : "text-2xl font-bold"}`}>Selected ({selectedHandleChoosePlayer.length}/6)</p>
+                
                 <div>
                     <button onClick={() => handleActive("available")} className={`${about? "about-btn active-btn" : "about-btn"}`}>Available</button>
                     <button onClick={() => handleActive("selected")} className={`${about? "select-btn" : "select-btn active-btn"}`}>Selected ({selectedHandleChoosePlayer.length})</button>

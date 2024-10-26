@@ -12,7 +12,7 @@ const SingleAvailable = ({ propSingleAvailable, handleChoosePlayer}) => {
 
 
         <div className='border border-gray-500 p-4 rounded-lg space-y-3'>
-            <img className='rounded-lg' src={image} />
+            <img className='rounded-lg w-full h-56 object-cover' src={image} />
             <div className='flex items-center gap-2'>
                 <BsPersonCircle className='text-xl'></BsPersonCircle>
                 <p className='text-lg font-semibold'>{name}</p>

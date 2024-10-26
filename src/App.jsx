@@ -8,7 +8,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Available from './components/Available';
 import Selected from './components/Selected';
-import News from './components/News';
+import News from './components/news/News';
+
 
 function App() {
    
@@ -136,7 +137,7 @@ function App() {
       }
 
       <News></News>
-      
+    
       
 
       <ToastContainer />

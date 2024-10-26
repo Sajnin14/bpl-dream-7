@@ -1,17 +1,17 @@
 [
     {
         "id": "CR001",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
-        "name": "Arjun Malik",
-        "country": "India",
-        "role": "Batsman",
+        "image": "https://i.ibb.co.com/By5yK6V/mustafizur.jpg",
+        "name": "Mustafizur Rahman",
+        "country": "Bangladesh",
+        "role": "Bowler",
         "rating": 87,
         "batting_style": "Right-handed",
-        "price": 200000
+        "price": 400000
     },
     {
         "id": "CR002",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/NFZPKJy/tom.jpg",
         "name": "Tom Wilcox",
         "country": "England",
         "role": "Fast Bowler",
@@ -21,9 +21,9 @@
     },
     {
         "id": "CR003",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
-        "name": "Sachin Rana",
-        "country": "India",
+        "image": "https://i.ibb.co.com/Gk5Y6dF/miraj.jpg",
+        "name": "Mehedi Miraj",
+        "country": "Bangladesh",
         "role": "All-rounder",
         "rating": 85,
         "batting_style": "Right-handed",
@@ -31,7 +31,7 @@
     },
     {
         "id": "CR004",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/jfng0sJ/vries.jpg",
         "name": "Jacques de Vries",
         "country": "South Africa",
         "role": "Wicketkeeper-batsman",
@@ -41,7 +41,7 @@
     },
     {
         "id": "CR005",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/JQmDgpr/faruq.jpg",
         "name": "Farooq Akhtar",
         "country": "Pakistan",
         "role": "Spin Bowler",
@@ -51,7 +51,7 @@
     },
     {
         "id": "CR006",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/FWtrrZX/leo.jpg",
         "name": "Leo Thompson",
         "country": "Australia",
         "role": "Batsman",
@@ -61,7 +61,7 @@
     },
     {
         "id": "CR007",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/nQsDfg3/khaled.jpg",
         "name": "Ahmed Khalid",
         "country": "Pakistan",
         "role": "All-rounder",
@@ -71,7 +71,7 @@
     },
     {
         "id": "CR008",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/dbBbJjB/james.jpg",
         "name": "James Parker",
         "country": "England",
         "role": "Spin Bowler",
@@ -81,7 +81,7 @@
     },
     {
         "id": "CR009",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/t3vFFkf/carlos.jpg",
         "name": "Carlos Mendes",
         "country": "West Indies",
         "role": "Batsman",
@@ -91,7 +91,7 @@
     },
     {
         "id": "CR010",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/HTHp83v/rahul.jpg",
         "name": "Rahul Singh",
         "country": "India",
         "role": "Fast Bowler",
@@ -101,7 +101,7 @@
     },
     {
         "id": "CR011",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/gttL2F0/moen.jpg",
         "name": "Moeen Ahmed",
         "country": "Bangladesh",
         "role": "All-rounder",
@@ -111,7 +111,7 @@
     },
     {
         "id": "CR012",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/jRYBmvV/ben.jpgs",
         "name": "Ben Stokes",
         "country": "England",
         "role": "Batsman",
@@ -122,7 +122,7 @@
 
     {
         "id": "CR013",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/TH0L8kC/akira.jpg",
         "name": "Akira Tanaka",
         "country": "Japan",
         "role": "Spin Bowler",
@@ -133,7 +133,7 @@
 
     {
         "id": "CR014",
-        "image": "https://i.ibb.co.com/LJ3PVGm/istockphoto-688945408-1024x1024.jpg",
+        "image": "https://i.ibb.co.com/ScxmvnD/usman.jpg",
         "name": "Usman Tariq",
         "country": "UAE",
         "role": "Wicketkeeper-batsman",

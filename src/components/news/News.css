@@ -1,0 +1,12 @@
+.bg-img{
+    background-image: url(../assets/bg-shadow.png);
+}
+
+.bg-image{
+    background-color: ghostwhite;
+    background-image: linear-gradient(to top right, aqua, ghostwhite, ghostwhite, bisque);
+    object-fit: cover;
+    border-radius: 12px;
+    
+    
+}

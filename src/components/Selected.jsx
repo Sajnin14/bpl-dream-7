@@ -5,7 +5,7 @@ const Selected = ({propSelected, propHandleDelete, handleAddMorePlayer}) => {
 
     return (
         <div>
-            <h2 className='font-bold text-3xl text-start'>Selected ({propSelected.length}/8)</h2>
+            {/* <h2 className='font-bold text-3xl text-start'>Selected ({propSelected.length}/8)</h2> */}
             
             {
                 propSelected.map(((select, idx) => <Select key={idx} propSelect = {select}
