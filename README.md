@@ -1,5 +1,7 @@
 Name of the Project: BPL-Dream-11
 
+live link: sajninb-batch10-assessment7.surge.sh
+
 Description: 'An online cricketer selection website is a platform that enables teams, coaches, and organizers to find and select cricket players based on essential criteria such as player name, country, role (e.g., batsman, bowler, all-rounder), batting style (e.g., right-handed, left-handed), and price. The platform allows users to compare players according to these attributes, providing an efficient way to identify the ideal candidates for teams, tournaments, or events. This streamlined process ensures that teams can quickly find players who match their specific needs and budget.'
 
 Technologies: 1. JavaScript
